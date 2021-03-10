@@ -140,10 +140,10 @@ export default function Post({ post }) {
 									{post.title}
 								</span>
 							</h1>
-							<p
+							<div
 								className="mt-8 text-xl text-gray-500 leading-8"
 								dangerouslySetInnerHTML={{ __html: post.html }}
-							></p>
+							></div>
 						</div>
 					</div>
 				</div>
